@@ -1,0 +1,21 @@
+# 戴文旭行业笔记 · 公众号推送配置模板
+#
+# 使用方法：
+#   1. 复制本文件为同目录下的 config.yaml
+#      cp config.yaml.example config.yaml
+#   2. 填入戴总的微信公众号凭据
+#   3. 把当前机器的公网 IP 加入公众号后台的 IP 白名单
+#
+# ⚠️ 安全提醒：
+#   - config.yaml 已经在 .gitignore 里，不会被提交到 git
+#   - 千万不要把真实的 secret 粘贴进这个 example 文件
+#   - AppSecret 只在公众号后台重置时显示一次，请立即保存
+
+wechat:
+  appid: "wx_your_appid_here"        # 替换为戴总的 AppID
+  secret: "your_appsecret_here"      # 替换为戴总的 AppSecret
+  author: "戴文旭"                   # 默认署名
+  mp_name: "戴总的公众号名称"         # 可选，仅作备注
+
+# 默认排版主题（一般不用改）
+theme: "wechat-tech"

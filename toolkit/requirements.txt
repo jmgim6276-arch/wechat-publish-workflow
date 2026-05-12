@@ -1,0 +1,4 @@
+markdown>=3.10
+pyyaml>=6.0
+Pillow>=10.0
+html2text>=2025.4.15

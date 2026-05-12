@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeChat Writing & Publish"
+  short_description: "Capture ideas, draft articles, and publish WeChat drafts"
+  default_prompt: "Use $wechat-publish-workflow to capture conversation material, turn it into a公众号 article, verify API access, and create or update a styled draft reliably."
