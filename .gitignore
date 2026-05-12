@@ -1,0 +1,15 @@
+# local config and secrets
+toolkit/config.yaml
+.env
+*.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# macOS
+.DS_Store
